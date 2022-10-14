@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:gravity="center">
+    <fragment
+        android:id="@+id/TopFragment"
+        android:name="com.example.w6_p1.TopFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <fragment
+        android:id="@+id/BottomFragment"
+        android:name="com.example.w6_p1.BottomFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <!-- Include other widget or layout tags here. These are considered
+            "child views" or "children" of the linear layout -->
+
+</LinearLayout>
